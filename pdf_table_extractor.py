@@ -1,3 +1,7 @@
+#Ken's comments:
+    # Reg, there appears to be a parsing error in the Amounts column for the NCA tab.
+    # Kindly try to filter the amounts that contain the letter "l": you'll see around 12,300 counts of that error
+
 import tabula
 import glob, os
 import pandas as pd
